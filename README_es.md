@@ -32,19 +32,26 @@ o un trabajo.
 CONFIGURACIÓN
     
 Iniciar sesión en twitter con tu cuenta: https://twitter.com
-Ir a https://apps.twitter.com/ 
+
+Ir a https://apps.twitter.com/
+    
     Hacer click en "Create New App"
+    
     Rellenar el formulario:
         Name: CleanTweetsGood
         Description: Twitter cleaner
         Website: https://github.com/rubenhortas/cleantweetsgood
         Callback URL: Dejar en blanco
+    
     Aceptar el acuerdo de desarrollador (Developer Agreement)
+    
     Ir a la pestaña "Keys and Access Tokens"
         Obtener los tokens: Consumer Key, Consumer Secret, Access Token and Access Token Secret
         Configurar los tokens en el fichero configuration.py
+    
     Ir a la pestaña "Permissions"
         Cambiar los permisos de "Access" a "Read, Write and Access direct messages"
+    
     Hacer click en "Update settings"
     
     

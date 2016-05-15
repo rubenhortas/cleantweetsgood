@@ -23,8 +23,8 @@ CleanTweetsGood
     Los servidores de twitter, capturas de pantalla de otros usuarios... 
     Cuando se borran los mensajes directos *no* se borran de la cuenta del otro usuario.
     
-    ¿POR QUÉ?
-    ------
+¿POR QUÉ?
+------
     
     Porque hay países donde las personas pueden  acabar en la cárcel por twittear.
     

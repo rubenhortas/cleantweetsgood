@@ -69,7 +69,7 @@ REQUISITOS
     
     * Almacenar el histórico de twitter en el directorio raíz de la aplicación con el nombre: tweets.csv
 
-USO:
+USO
 ------
 
     uso: cleantweetsgood.py [-h] [-t] [-log] [-bl] [-dm] [-u USER [USER ...]]

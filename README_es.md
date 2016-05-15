@@ -71,7 +71,7 @@ REQUISITOS
 
 USO:
 ------
-
+<pre>
 uso: cleantweetsgood.py [-h] [-t] [-log] [-bl] [-dm] [-u USER [USER ...]]
                         [-id ID [ID ...]]
 
@@ -87,21 +87,23 @@ argumentos opcionales:
     -u USER [USER ...], --unfollow USER [USER ...]
                           Usuarios a dejar de seguir
     -id ID [ID ...]       IDs de los tweets a eliminar
-
+</pre>
 
 AUTOR
 ------
-
+<pre>
 Rubén Hortas
 Contacto: rubenhortas at gmail.com
 Website: http://www.rubenhortas.blogspot.com.es
-*
+</pre>
 
 LICENCIA
 ------
 
+<pre>
 CC BY-NC-SA 3.0
 http://creativecommons.org/licenses/by-nc-sa/3.0/
+</pre>
 
 CONTACTO
 ------

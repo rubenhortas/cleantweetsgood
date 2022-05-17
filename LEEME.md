@@ -1,9 +1,6 @@
-CleanTweetsGood
-======
+# CleanTweetsGood
 
-¿QUÉ ES?
-------
-
+## ¿Qué es?
     Es un programa que permite eliminar tweets de un usuario a partir de su histórico de twitter.
     
     Se pueden eliminar tweets de dos formas:
@@ -11,9 +8,7 @@ CleanTweetsGood
              almacenadas en una lista negra definida por el usuario.
         - Por ID: Se eliminan los tweets a partir de su ID.
 
-¿QUÉ *NO* ES?
-------
-
+## ¿Qué *NO* es?
     No es un panic button ni una solución mágica. 
     
     Aunque los tweets se borren del timeline, los cambios en el timeline tardan un tiempo en verse reflejados
@@ -23,9 +18,7 @@ CleanTweetsGood
     Los servidores de twitter, capturas de pantalla de otros usuarios... 
     Cuando se borran los mensajes directos *no* se borran de la cuenta del otro usuario.
     
-¿POR QUÉ?
-------
-    
+## ¿Por qué?
     Porque hay países donde las personas pueden  acabar en la cárcel por twittear.
     
     Porque las empresas y los medios viven obsesionados con las redes sociales y algún tweet del pasado sacado 
@@ -33,9 +26,7 @@ CleanTweetsGood
     o un trabajo.
 
 
-CONFIGURACIÓN
-------
-
+## Configuración
     * Iniciar sesión en twitter con tu cuenta: https://twitter.com
     
     * Ir a https://apps.twitter.com/
@@ -60,18 +51,14 @@ CONFIGURACIÓN
     * Hacer click en "Update settings"
 
 
-REQUISITOS
-------
-
+## Requisitos
     * tweepy
     
     * Descargar el histórico de twitter desde: https://twitter.com/settings/your_twitter_data
     
     * Almacenar el histórico de twitter en el directorio raíz de la aplicación con el nombre: tweets.csv
 
-USO
-------
-
+## Uso
     uso: cleantweetsgood.py [-h] [-t] [-log] [-bl] [-dm] [-u USER [USER ...]]
                             [-id ID [ID ...]]
     
@@ -88,31 +75,6 @@ USO
                               Usuarios a dejar de seguir
         -id ID [ID ...]       IDs de los tweets a eliminar
 
-AUTOR
-------
-
-    Rubén Hortas
-    Contacto: rubenhortas at gmail.com
-    Website: http://www.rubenhortas.blogspot.com.es
-
-LICENCIA
-------
-
-    CC BY-NC-SA 3.0
-    http://creativecommons.org/licenses/by-nc-sa/3.0/
-
-CONTACTO
-------
-
-    Si tienes problemas, preguntas, ideas, o sugerencias puedes
-    contrubuir con este pequeño proyecto en el repositorio de github:
-    
-    https://github.com/rubenhortas/CleanTweetsGood
-
-WEB SITE
-------
-
-    Visita el sitio del proyecto en github para ver las últimas novedades y descargas:
-    
-    https://github.com/rubenhortas/CleanTweetsGood
+## Apoyo
+Si encuentras útil este programa puedes marcar el repositorio con una estrella.
 

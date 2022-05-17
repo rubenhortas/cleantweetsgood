@@ -1,6 +1,6 @@
 # CleanTweetsGood
 
-## WHAT IS IT?
+## What is it?
     It is a program that allows an user to remove tweets from his twitter history.
     
     Tweets can be deleted in two ways:
@@ -8,7 +8,7 @@
              stored on a blacklist by the user.
         - By ID: tweets are removed from their ID.
 
-## WHAT IS *NOT*?
+## What is *NOT*?
     It's not a panic button or a magic solution.
     
     Although tweets are deleted from the timeline, the timeline changes take time to be reflected
@@ -18,7 +18,7 @@
     Twitter servers, screenshots ... 
     When users direct messages are deleted the are *NOT* deleted from the other user account.
 
-## WHY?
+## Why?
     Because there are countries where people can go to jail for tweeting.
     
     Because companies and media are obsessed with social networking and some tweet last out 
@@ -26,7 +26,7 @@
     or a job.
 
 
-## SETTINGS
+## Settings
     * Log in with your account twitter: https://twitter.com
     
     * Go to https://apps.twitter.com/
@@ -51,14 +51,14 @@
     * Click on "Update settings"
     
     
-## REQUIREMENTS
+## Requirements
     * tweepy
     
     * Download the history of twitter from: https://twitter.com/settings/your_twitter_data
     
     * Storing the history of twitter in the root directory of the application with the name: tweets.csv
 
-## USAGE
+## Usage
     Use: cleantweetsgood.py [-h] [-t] [-log] [-BL] [-dm] [-u USER [USER ...]]
                             [-id ID [ID ...]]
     
@@ -76,4 +76,4 @@
         -id ID [ID ...]       Tweet IDs to delete
 
 ## Support
-If you find this widget useful you can star this repo.
+If you find this application useful you can star this repo.
